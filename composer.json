@@ -1,1 +1,35 @@
-{ "require": { "hhvm": "3.2.0" } }
+{
+    "name": "Yuvi Wordpress",
+    "description": "A template for installing and running WordPress on Heroku",
+    "homepage": "https://github.com/ywaghmare/yog-wordpress",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuvi Wordpress",
+            "email": "me@xyu.io",
+            "homepage": "https://arcane-fjord-27787.herokuapp.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "ext-gd": "*",
+        "php": "7.*"
+    },
+    "suggest": {
+        "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",
+        "trepmal/wp-revisions-cli": "WP CLI tool for cleaning up revisions (dev-master)"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "WordPress",
+                "version": "4.7.5",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/WordPress/WordPress/archive/4.7.5.zip"
+                }
+            }
+        }
+    ]
+}
