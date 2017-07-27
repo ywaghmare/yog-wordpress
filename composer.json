@@ -1,1 +1,18 @@
-{ "require": { "hhvm": "3.2.0" } }
+{
+	"name": "Yuvi Wordpress",
+    "description": "A template for installing and running WordPress on Heroku",
+    "homepage": "https://github.com/ywaghmare/yog-wordpress",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuvi Wordpress",
+            "email": "yogesh.waghmare@webdunia.net",
+            "homepage": "https://tranquil-badlands-78764.herokuapp.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "ext-gd": "*",
+        "php": "7.*"
+    }
+}
